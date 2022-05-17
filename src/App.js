@@ -103,7 +103,7 @@ const App = () => {
               <>
                 <h1 className="text-5xl text-gray-800 mt-auto mb-4">Today</h1>
                 <DetailCard weather_icon={weatherIcon} data={weatherData} />
-                <h1 className="text-3xl text-gray-600 mb-4 mt-10">Más igo de{city}</h1>
+                <h1 className="text-3xl text-gray-600 mb-4 mt-10">Más info de {city}</h1>
                 <ul className="grid grid-cols-2  gap-2">
                   {weatherData.list.map( (days, index) => {
                     if(index > 0){
