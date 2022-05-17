@@ -1,4 +1,4 @@
-import React from 'react';
+
 const Header = () => {
   return (
     <ul className="flex ml-auto w-full font-bold">

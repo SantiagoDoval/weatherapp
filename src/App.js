@@ -63,7 +63,7 @@ const App = () => {
           {/* form card section  */}
         <div className="form-container">
           <div className="flex items-center justify-center">
-            <h3 className="my-auto mr-auto text-xl text-green-800 font-bold shadow-md py-1 px-3 
+            <h3 className="my-auto mr-auto text-xl text-pink-800 font-bold shadow-md py-1 px-3 
             rounded-md bg-white bg-opacity-30">WeatherApp</h3>
             <div className="flex p-2 text-gray-100 bg-gray-600 bg-opacity-30 rounded-lg">
             <i className="fa fa-map my-auto" aria-hidden="true"></i>
@@ -103,7 +103,7 @@ const App = () => {
               <>
                 <h1 className="text-5xl text-gray-800 mt-auto mb-4">Today</h1>
                 <DetailCard weather_icon={weatherIcon} data={weatherData} />
-                <h1 className="text-3xl text-gray-600 mb-4 mt-10">Más info de{city}</h1>
+                <h1 className="text-3xl text-gray-600 mb-4 mt-10">Más igo de{city}</h1>
                 <ul className="grid grid-cols-2  gap-2">
                   {weatherData.list.map( (days, index) => {
                     if(index > 0){
