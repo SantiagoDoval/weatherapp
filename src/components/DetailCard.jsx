@@ -1,4 +1,5 @@
 import { isContentEditable } from "@testing-library/user-event/dist/utils"
+import React from 'react';
 import moment from "moment"
 
 const DetailCard=({weather_icon,data})=>{
